@@ -1,0 +1,168 @@
+import <System>
+import "LocalClass.xs"
+
+class Example
+{
+	public:
+		// Do comments work now??
+
+		float decimalNumber = 3.14;
+		string name = "xeno";
+		string greeting = $"Hello, {name}";
+
+		/*
+			This is a multiline comment.
+			Does it continue to work properly?
+		*/
+		Example()
+		{
+			if (decimalNumber > 0.0)
+			{
+				print(decimalNumber);
+			}
+
+
+			for (integer j = 0; j < number; j++)
+			{
+				float output = decimalNumber * j;
+				print(output);
+			}
+
+			method();
+		}
+
+		function method() : void
+		{
+			print(greeting);
+		}
+
+		static function staticFunction(integer a, integer b) : integer
+		{
+			return a + b;
+		}
+
+	private:
+		integer number = 10;
+		static unsigned short shortNumber = 25000;
+		list<double> doublesList;
+		dictionary<string, integer> stringIntDict;
+
+	protected:
+		Example(float decimalNumber)
+		{
+			this.decimalNumber = decimalNumber;
+		}
+}
+
+enum DaysOfWeek {
+    Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
+}
+
+interface Greetable {
+	public:
+		function greet() : string;
+}
+
+class Greeter : Greetable {
+    public:
+        overload function greet() : string {
+            return "Hello, world!";
+        }
+}
+
+class TestScript
+{
+	public:
+		integer intValue = 42;
+		float floatValue = 3.14159;
+		string stringValue = "Test String";
+		char charValue = 'A';
+		bool boolValue = true;
+
+		function controlFlowExample() : void
+		{
+			if (intValue > 10)
+			{
+				print("intValue is greater than 10");
+			}
+			else if (floatValue < 5.0)
+			{
+				print("floatValue is less than 5.0");
+			}
+			else
+			{
+				print("Else case");
+			}
+		}
+
+		function matchCaseExample() : void
+		{
+			match (boolValue)
+			{
+				case true:
+					print("boolValue is true");
+					break;
+				case false:
+					print("boolValue is false");
+					break;
+				default:
+					print("Default case");
+			}
+		}
+
+		function loopExample() : void
+		{
+			for (integer i = 0; i < 5; i++)
+			{
+				print("Loop iteration: " + i);
+			}
+
+			foreach (integer num : intArray)
+			{
+				print("Foreach value: " + num);
+			}
+		}
+
+		function enumExample() : void
+		{
+			DaysOfWeek today = DaysOfWeek.Wednesday;
+			match (today)
+			{
+				case DaysOfWeek.Monday:
+					print("It's Monday");
+					break;
+				case DaysOfWeek.Wednesday:
+					print("It's Wednesday");
+					break;
+				default:
+					print("It's another day");
+			}
+		}
+
+		function greetExample() : void
+		{
+			Greeter greeter = new Greeter(test);
+			print(greeter.greet());
+		}
+
+		function collectionExamples() : void
+		{
+			list<string> stringList;
+			stringList.add("Item 1");
+			stringList.add("Item 2");
+			print($"List contents: {stringList[0]}, {stringList[1]}");
+
+			dictionary<integer, string> intStringDict;
+			intStringDict.add(1, "Value 1");
+			intStringDict.add(2, "Value 2");
+			print("Dictionary contents: Key 1 -> {intStringDict[1]}, Key 2 -> {intStringDict[2]}");
+
+			foreach (string item : stringList)
+			{
+				print("List item: {item}");
+			}
+		}
+
+	protected:
+		string[] arrayTest = new string;
+}

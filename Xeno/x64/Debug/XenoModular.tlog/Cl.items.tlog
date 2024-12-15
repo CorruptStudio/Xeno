@@ -1,0 +1,14 @@
+D:\XenoModular\Xeno\src\compiler\BytecodeEmitter.cpp;D:\XenoModular\Xeno\x64\Debug\BytecodeEmitter.obj
+D:\XenoModular\Xeno\src\compiler\Compiler.cpp;D:\XenoModular\Xeno\x64\Debug\Compiler.obj
+D:\XenoModular\Xeno\src\lexer\Lexer.cpp;D:\XenoModular\Xeno\x64\Debug\Lexer.obj
+D:\XenoModular\Xeno\src\lexer\Token.cpp;D:\XenoModular\Xeno\x64\Debug\Token.obj
+D:\XenoModular\Xeno\src\parser\Parser.cpp;D:\XenoModular\Xeno\x64\Debug\Parser.obj
+D:\XenoModular\Xeno\src\runtime\Interpreter.cpp;D:\XenoModular\Xeno\x64\Debug\Interpreter.obj
+D:\XenoModular\Xeno\src\runtime\StandardLibrary.cpp;D:\XenoModular\Xeno\x64\Debug\StandardLibrary.obj
+D:\XenoModular\Xeno\src\utils\ErrorHandler.cpp;D:\XenoModular\Xeno\x64\Debug\ErrorHandler.obj
+D:\XenoModular\Xeno\src\utils\Logger.cpp;D:\XenoModular\Xeno\x64\Debug\Logger.obj
+D:\XenoModular\Xeno\src\semantic\SymbolTable.cpp;D:\XenoModular\Xeno\x64\Debug\SymbolTable.obj
+D:\XenoModular\Xeno\tests\IntegrationTests.cpp;D:\XenoModular\Xeno\x64\Debug\IntegrationTests.obj
+D:\XenoModular\Xeno\tests\LexerTests.cpp;D:\XenoModular\Xeno\x64\Debug\LexerTests.obj
+D:\XenoModular\Xeno\tests\ParserTests.cpp;D:\XenoModular\Xeno\x64\Debug\ParserTests.obj
+D:\XenoModular\Xeno\tests\RuntimeTests.cpp;D:\XenoModular\Xeno\x64\Debug\RuntimeTests.obj

@@ -1,0 +1,14 @@
+D:\ScriptForge\ScriptForge\src\compiler\BytecodeEmitter.cpp;D:\ScriptForge\ScriptForge\x64\Debug\BytecodeEmitter.obj
+D:\ScriptForge\ScriptForge\src\compiler\Compiler.cpp;D:\ScriptForge\ScriptForge\x64\Debug\Compiler.obj
+D:\ScriptForge\ScriptForge\src\lexer\Lexer.cpp;D:\ScriptForge\ScriptForge\x64\Debug\Lexer.obj
+D:\ScriptForge\ScriptForge\src\lexer\Token.cpp;D:\ScriptForge\ScriptForge\x64\Debug\Token.obj
+D:\ScriptForge\ScriptForge\src\parser\AST.cpp;D:\ScriptForge\ScriptForge\x64\Debug\AST.obj
+D:\ScriptForge\ScriptForge\src\parser\Parser.cpp;D:\ScriptForge\ScriptForge\x64\Debug\Parser.obj
+D:\ScriptForge\ScriptForge\src\runtime\Interpreter.cpp;D:\ScriptForge\ScriptForge\x64\Debug\Interpreter.obj
+D:\ScriptForge\ScriptForge\src\runtime\StandardLibrary.cpp;D:\ScriptForge\ScriptForge\x64\Debug\StandardLibrary.obj
+D:\ScriptForge\ScriptForge\src\utils\ErrorHandler.cpp;D:\ScriptForge\ScriptForge\x64\Debug\ErrorHandler.obj
+D:\ScriptForge\ScriptForge\src\utils\Logger.cpp;D:\ScriptForge\ScriptForge\x64\Debug\Logger.obj
+D:\ScriptForge\ScriptForge\tests\IntegrationTests.cpp;D:\ScriptForge\ScriptForge\x64\Debug\IntegrationTests.obj
+D:\ScriptForge\ScriptForge\tests\LexerTests.cpp;D:\ScriptForge\ScriptForge\x64\Debug\LexerTests.obj
+D:\ScriptForge\ScriptForge\tests\ParserTests.cpp;D:\ScriptForge\ScriptForge\x64\Debug\ParserTests.obj
+D:\ScriptForge\ScriptForge\tests\RuntimeTests.cpp;D:\ScriptForge\ScriptForge\x64\Debug\RuntimeTests.obj
