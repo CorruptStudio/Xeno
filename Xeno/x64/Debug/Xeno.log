@@ -1,7 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (ScriptForge.vcxproj, XenoScript.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Parser.cpp
-  SymbolTable.cpp
-  LexerTests.cpp
-  Generating Code...
-D:\XenoModular\Xeno\src\parser\Parser.cpp(816,1): warning C4715: 'xeno::parser::Parser::parseNewExpression': not all control paths return a value
-  Xeno.vcxproj -> D:\XenoModular\x64\Debug\XenoModular.exe
