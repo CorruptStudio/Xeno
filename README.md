@@ -25,7 +25,7 @@
 
 5. **Imports and Modules**:
    - Import system that supports versioning without wildcard use for strict dependency management.
-   - Modules imported via `import <Module>` for system-level bindings and `import "LocalFile"` for user scripts.
+   - Modules imported via `import <Module>` for global bindings and `import "LocalFile"` for user scripts.
 
 ## Developer Flexibility:
 - **Game Integration**:
@@ -34,7 +34,7 @@
 - **Entry Points**:
   - Predefined entry points specified in the `mod.info` file, similar to how Node.js works.
 - **Compilation**:
-  - Currently, xeno does not compile to bytecode but may consider runtime compilation if needed for performance.
+  - Currently, Xeno does not compile to bytecode but may consider runtime compilation if needed for performance.
 - **Sandboxing**:
   - Scripts are run in a secure, sandboxed environment to prevent unauthorized access to the system.
 
@@ -48,7 +48,7 @@ class GameMod
     public:
         function greet() : void
         {
-            log("Hello, xeno!");
+            log("Hello, Xeno!");
         }
 
         function calculateValue(integer x) : integer
